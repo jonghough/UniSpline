@@ -7,13 +7,17 @@ open System.Collections
 open System.Collections.Generic
 module CRS =
 
+    ///<summary>
+    /// Catmull Rom spline implementation for GameObject control point list. Using GameObject references
+    /// allows manipulation of the control point positions while the spline curve is being traversed.
+    ///</summary>
     type CatmullRomAdvanced ( ptList : List<GameObject>, timeLimit : float32, onFinish : System.Action )=
         let mutable t : float32 = 0.0f
         let mutable mt : float32 = 0.0f
         let mutable currentIndex : int32 = 0
-        member this.tArray : List<GameObject> = ptList
-        member this.timeLimit : float32 = timeLimit
-        member this.onFinish : System.Action = onFinish
+        member private this.tArray : List<GameObject> = ptList
+        member private this.timeLimit : float32 = timeLimit
+        member private this.onFinish : System.Action = onFinish
 
         
         member public this.UpdateCurve( dt : float32) : Vector3 = 
