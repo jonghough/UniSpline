@@ -1,0 +1,8 @@
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\bin\Release\UniSpline.XML
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\bin\Release\UniSpline.dll
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\bin\Release\UniSpline.pdb
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\bin\Release\FSharp.Core.dll
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\bin\Release\UnityEngine.dll
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\bin\Release\FSharp.Core.xml
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\obj\Release\UniSpline.dll
+C:\Users\Jon\Documents\Visual Studio 2013\Projects\UniSpline\UniSpline\obj\Release\UniSpline.pdb

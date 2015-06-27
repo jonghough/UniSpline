@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>UniSpline</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:UniSpline.BezierQ.Update(System.Single)">
+<summary>
+ Updates the Bezier curve and returns the next point (Vector3)
+</summary>
+</member>
+<member name="M:UniSpline.BezierQ.GetTangent">
+<summary>
+ Returns the normalized tangent vector of the bezier curve at the current time.
+ If time is less than or equal to zero or greater than the time limit, then will
+ return the zero vector.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="T:UniSpline.BezierQ">
+<summary>
+ Implementation of a quadratic bezier curve using Vector3 points for the two end points and the
+ control point.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:UniSpline.CatmullRomSpline.UpdateCurve(System.Single)">
+<summary>
+ Updates the curve and returns the next Vector3 point on the curve.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:UniSpline.CatmullRomSpline">
+<summary>
+ Implementation of Catmull-Rom spline using an array of Vector3 contorl points.
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:UniSpline.CRS">
+
+</member>
+</members>
+</doc>
