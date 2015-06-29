@@ -40,7 +40,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
-      <HintPath>C:\Users\Jon\Desktop\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
